@@ -13,4 +13,8 @@ public class PrimeGenerator {
 
         return true;
     }
+
+    public ArrayList<Integer> generatePrimes ( int limit) { ArrayList<Integer> primes = new ArrayList<Integer>();
+        for ( int i = 1 ; i <= limit; i++) { if (isPrime(i)) primes. add (i);
+        } return primes; }
 }
